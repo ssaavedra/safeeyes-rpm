@@ -21,6 +21,7 @@ Requires:	python3-pip
 Requires:	python3-pytz
 Requires:	python3-xlib
 Requires:	python3-babel
+Requires:	python3-gobject
 
 %description
 An utility to avoid asthenopia

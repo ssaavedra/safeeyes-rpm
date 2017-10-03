@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yum install -y gcc rpm-build rpmdevtools make wget yum-utils --enablerepo=extras
+yum install -y gcc rpm-build rpmdevtools python3-gobject-base python3-gobject gtk3-devel make wget yum-utils --enablerepo=extras
 
 cd /base-src
 
