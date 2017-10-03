@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf install -y rpm-build make gcc wget 'dnf-command(builddep)'
+dnf install -y rpm-build rpmdevtools make gcc wget 'dnf-command(builddep)'
 
 cd /base-src
 
