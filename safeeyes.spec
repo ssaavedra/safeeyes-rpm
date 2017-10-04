@@ -14,6 +14,8 @@ Source: 	https://github.com/slgobinath/%{srcname}/archive/v%{version}.tar.gz
 #ExclusiveArch:	i386 x86_64
 
 BuildRequires:	python3-devel
+BuildRequires:	gtk3-devel
+Requires:	libnotify
 Requires:	libappindicator-gtk3
 Requires:	python3-pyaudio
 Requires:	python3-psutil
