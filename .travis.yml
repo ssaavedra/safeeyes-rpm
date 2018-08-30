@@ -5,10 +5,9 @@ env:
     - VERSION=2.0.6
     - RELEASE=1
   matrix:
-  - OS_TYPE=fedora OS_VERSION=27
   - OS_TYPE=fedora OS_VERSION=28
   - OS_TYPE=fedora OS_VERSION=29
-  - OS_TYPE=centos OS_VERSION=7
+  # - OS_TYPE=centos OS_VERSION=7
 services:
 - docker
 before_install:
