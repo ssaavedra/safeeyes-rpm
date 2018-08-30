@@ -1,7 +1,7 @@
 .PHONY: srpm rpm
 
-VERSION = 2.0.6
-RELEASE = 1
+VERSION ?= 2.0.6
+RELEASE ?= 1
 
 TARGETS = i386/python3-safeeyes-$(VERSION)-$(RELEASE).i386.rpm x86_64/python3-safeeyes-$(VERSION)-$(RELEASE).x86_64.rpm python-safeeyes-$(VERSION)-$(RELEASE).src.rpm
 
